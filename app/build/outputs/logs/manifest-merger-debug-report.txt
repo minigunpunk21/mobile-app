@@ -1,0 +1,440 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4b9944f5db46f43cd272e03a9f40d131/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/1a0558b7577fee4c098886f8ab43d9fe/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/fedf105e40ae0214f63e00d532deebd8/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/c9c5ea5a9a03b4cb89cc0c6cb0b4d705/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ace3fdb9303e933a28ae8d4af45617c9/transformed/material3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/66b7179dece67e0dc856ddae3274bad4/transformed/material/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/c61543d26dcf2b5a243f6c653232cb13/transformed/material-ripple/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/5a498fd66b0aef262325476503e94f23/transformed/foundation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/686e1d59bbaec5d73dd9853563f65065/transformed/animation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/387d3c5d044196ede91282ebe2f364c5/transformed/foundation-layout/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/450340cc4cf70e8961de9f1e1b8cbc1f/transformed/animation-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/90ca977ad673204688c0c74ef64d0b8b/transformed/ui-tooling-data/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/386b1a4851914ded02b6fcc7c826b937/transformed/ui-unit/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/a899e2e40a11edfbd8a0bbf9198a181e/transformed/ui-geometry/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1192dae54d42e2db9d9bac6845d09f84/transformed/ui-util/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/b1cfc69a0efdf6daf27b2f8beb6495d0/transformed/ui-text/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fb5ab0c7d17af6352125aeb8b3c20db1/transformed/ui-tooling-preview/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/f93c73cac7d6ee911365b834bd97609f/transformed/ui-graphics/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/efeeb12dfdd90239d269ade5a3d640ee/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/0c611b8a4d73065ce650d0726050b0da/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/2064baab9bac9da30f724d6269ee1fae/transformed/runtime-annotation/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/e6a9d27dc4258a590d7a1680ae2bf50f/transformed/runtime-retain/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3c6d2630288b679286d04950fd736416/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e2e61daad27f63cc84473cb073c4af3e/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.6.0] /var/home/minigunpunk/.gradle/caches/transforms-4/e60e07688f7a354025bd95a1fc409a6d/transformed/transition-1.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8c5891e40de3b90743386ca1c433c2e4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8162c504bb2c5f9a0db76c5c4fa5efc1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f3b9366fd62a545da7f0a302593b945c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/750f7abc43dc93a854608f5e2c91692f/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ee2a7040f407f30a9948c1b2a28e367b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/a32d9ac6c19b89562bbccf791c0c7c1b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4eadc271b35f11b401ed4eeefbb85098/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/5f2eaf4be03c37bbbbaa3b09280e6e52/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/151e8bfb326caf7ec1ebcb3a744502cd/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1da6621c51c862c3f8e6a31d40397419/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/9cb156adccff64f4918e7b9e17a9887f/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-core-android:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/dd374ff3d57e1fbe7bf5f03f9703d996/transformed/window-core/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.autofill:autofill:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f34831f63d45260f8686882d122d6a8a/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/7094522bd012c074fc7106687707e8ca/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1da883d3dc5e94467ec359163ab62d15/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e33fb799bd92d14ea4d2326e81ab8963/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/d6af3af74372618773a595f546564017/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/62d0d1a725cb4cc0c80b52e1227f9f11/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/31ec67afd7f102e8f16e6e42e2956525/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/40ff819a239ee4fbb6b0e1acc2ea533d/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/0a1e7458c02dcd3bd5afda45752488c4/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/5df179d4f79c714ded92900d681437ad/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/df6d47a50f224c5361e2658be116771d/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/40f2683d7335e6188ba943ad7ff280f7/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/0a418c0c37f8be8d4a65ea8583feebb9/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/d692ff2486afecd69ed3c0bdbd329afb/transformed/savedstate-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/3066f69e3c8eb5981b3520a5cd317050/transformed/runtime/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/64e13f9642a8a1f7540997a27ba7e901/transformed/runtime-saveable/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/23dda0d083ec050f401ba6dc677b8849/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/8dbeb1c3598d214aabcc62b3ff2aee9e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/03bc1e6792e117e4bccda77702e3dea4/transformed/ui/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.activity:activity:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c5e891331775519d0008299919b5d394/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/858c260c02cea367f16573901af50e90/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/35141871475b721cd5327b73c96d2166/transformed/activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/70aec4975570fd1ec58dc8caae027ae5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/994e619b5f4dd4c5c8a0cab6a4d354b4/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/cb4e3177b0e53d0ce981d6fad90e9da4/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /var/home/minigunpunk/.gradle/caches/transforms-4/d71f1968ca0d76d2de3d3896481fdfb4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/b1ec73985a1d6c200353dce0af8ec2fe/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c0b9d8ae4f59b1f027ee638ed5fdaef1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/89bf0010004e78eeb192a11767ad2037/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ef871b021e6d852c2007d4e0878eb41c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1ffa8b143b8cb172b0631e5809a8303e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1dabf5640df23e7f2d26bda717d4ae22/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/54f64dce2f4bc9bf35f88a2fe6982d5c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a3ca27c366abcb24f09b7d5c42f72b89/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a4e2c39ef4d519a9f1e29182bace0bb0/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/7040d9395aa282c5bb56a1ebe5bc0ea3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:4:5-20:19
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:4:5-20:19
+MERGED from [com.google.android.material:material:1.12.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4b9944f5db46f43cd272e03a9f40d131/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4b9944f5db46f43cd272e03a9f40d131/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/1a0558b7577fee4c098886f8ab43d9fe/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/1a0558b7577fee4c098886f8ab43d9fe/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c0b9d8ae4f59b1f027ee638ed5fdaef1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c0b9d8ae4f59b1f027ee638ed5fdaef1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:10:9-54
+activity#com.example.calculatorcourse.app.MainActivity
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:exported
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:13:13-36
+	android:theme
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:14:13-58
+	android:name
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:12:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4b9944f5db46f43cd272e03a9f40d131/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4b9944f5db46f43cd272e03a9f40d131/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/1a0558b7577fee4c098886f8ab43d9fe/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/1a0558b7577fee4c098886f8ab43d9fe/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/fedf105e40ae0214f63e00d532deebd8/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/fedf105e40ae0214f63e00d532deebd8/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/c9c5ea5a9a03b4cb89cc0c6cb0b4d705/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /var/home/minigunpunk/.gradle/caches/transforms-4/c9c5ea5a9a03b4cb89cc0c6cb0b4d705/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ace3fdb9303e933a28ae8d4af45617c9/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ace3fdb9303e933a28ae8d4af45617c9/transformed/material3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/66b7179dece67e0dc856ddae3274bad4/transformed/material/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/66b7179dece67e0dc856ddae3274bad4/transformed/material/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/c61543d26dcf2b5a243f6c653232cb13/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/c61543d26dcf2b5a243f6c653232cb13/transformed/material-ripple/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/5a498fd66b0aef262325476503e94f23/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/5a498fd66b0aef262325476503e94f23/transformed/foundation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/686e1d59bbaec5d73dd9853563f65065/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/686e1d59bbaec5d73dd9853563f65065/transformed/animation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/387d3c5d044196ede91282ebe2f364c5/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/387d3c5d044196ede91282ebe2f364c5/transformed/foundation-layout/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/450340cc4cf70e8961de9f1e1b8cbc1f/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/450340cc4cf70e8961de9f1e1b8cbc1f/transformed/animation-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/90ca977ad673204688c0c74ef64d0b8b/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/90ca977ad673204688c0c74ef64d0b8b/transformed/ui-tooling-data/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/386b1a4851914ded02b6fcc7c826b937/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/386b1a4851914ded02b6fcc7c826b937/transformed/ui-unit/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/a899e2e40a11edfbd8a0bbf9198a181e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/a899e2e40a11edfbd8a0bbf9198a181e/transformed/ui-geometry/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1192dae54d42e2db9d9bac6845d09f84/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1192dae54d42e2db9d9bac6845d09f84/transformed/ui-util/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/b1cfc69a0efdf6daf27b2f8beb6495d0/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/b1cfc69a0efdf6daf27b2f8beb6495d0/transformed/ui-text/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fb5ab0c7d17af6352125aeb8b3c20db1/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fb5ab0c7d17af6352125aeb8b3c20db1/transformed/ui-tooling-preview/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/f93c73cac7d6ee911365b834bd97609f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/f93c73cac7d6ee911365b834bd97609f/transformed/ui-graphics/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/efeeb12dfdd90239d269ade5a3d640ee/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/efeeb12dfdd90239d269ade5a3d640ee/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/0c611b8a4d73065ce650d0726050b0da/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /var/home/minigunpunk/.gradle/caches/transforms-4/0c611b8a4d73065ce650d0726050b0da/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/2064baab9bac9da30f724d6269ee1fae/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/2064baab9bac9da30f724d6269ee1fae/transformed/runtime-annotation/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/e6a9d27dc4258a590d7a1680ae2bf50f/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/e6a9d27dc4258a590d7a1680ae2bf50f/transformed/runtime-retain/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3c6d2630288b679286d04950fd736416/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3c6d2630288b679286d04950fd736416/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e2e61daad27f63cc84473cb073c4af3e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e2e61daad27f63cc84473cb073c4af3e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.6.0] /var/home/minigunpunk/.gradle/caches/transforms-4/e60e07688f7a354025bd95a1fc409a6d/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.6.0] /var/home/minigunpunk/.gradle/caches/transforms-4/e60e07688f7a354025bd95a1fc409a6d/transformed/transition-1.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8c5891e40de3b90743386ca1c433c2e4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8c5891e40de3b90743386ca1c433c2e4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8162c504bb2c5f9a0db76c5c4fa5efc1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/8162c504bb2c5f9a0db76c5c4fa5efc1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f3b9366fd62a545da7f0a302593b945c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f3b9366fd62a545da7f0a302593b945c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/750f7abc43dc93a854608f5e2c91692f/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/750f7abc43dc93a854608f5e2c91692f/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ee2a7040f407f30a9948c1b2a28e367b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ee2a7040f407f30a9948c1b2a28e367b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/a32d9ac6c19b89562bbccf791c0c7c1b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/a32d9ac6c19b89562bbccf791c0c7c1b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4eadc271b35f11b401ed4eeefbb85098/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/4eadc271b35f11b401ed4eeefbb85098/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/5f2eaf4be03c37bbbbaa3b09280e6e52/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/5f2eaf4be03c37bbbbaa3b09280e6e52/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/151e8bfb326caf7ec1ebcb3a744502cd/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/151e8bfb326caf7ec1ebcb3a744502cd/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1da6621c51c862c3f8e6a31d40397419/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1da6621c51c862c3f8e6a31d40397419/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/9cb156adccff64f4918e7b9e17a9887f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /var/home/minigunpunk/.gradle/caches/transforms-4/9cb156adccff64f4918e7b9e17a9887f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-core-android:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/dd374ff3d57e1fbe7bf5f03f9703d996/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-core-android:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/dd374ff3d57e1fbe7bf5f03f9703d996/transformed/window-core/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f34831f63d45260f8686882d122d6a8a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/f34831f63d45260f8686882d122d6a8a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/7094522bd012c074fc7106687707e8ca/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/7094522bd012c074fc7106687707e8ca/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1da883d3dc5e94467ec359163ab62d15/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1da883d3dc5e94467ec359163ab62d15/transformed/lifecycle-viewmodel-2.9.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e33fb799bd92d14ea4d2326e81ab8963/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/e33fb799bd92d14ea4d2326e81ab8963/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/d6af3af74372618773a595f546564017/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/d6af3af74372618773a595f546564017/transformed/lifecycle-livedata-core-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/62d0d1a725cb4cc0c80b52e1227f9f11/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/62d0d1a725cb4cc0c80b52e1227f9f11/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/31ec67afd7f102e8f16e6e42e2956525/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/31ec67afd7f102e8f16e6e42e2956525/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/40ff819a239ee4fbb6b0e1acc2ea533d/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/40ff819a239ee4fbb6b0e1acc2ea533d/transformed/lifecycle-viewmodel-ktx-2.9.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/0a1e7458c02dcd3bd5afda45752488c4/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/0a1e7458c02dcd3bd5afda45752488c4/transformed/lifecycle-livedata-core-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/5df179d4f79c714ded92900d681437ad/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/5df179d4f79c714ded92900d681437ad/transformed/lifecycle-livedata-2.9.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/df6d47a50f224c5361e2658be116771d/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/df6d47a50f224c5361e2658be116771d/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/40f2683d7335e6188ba943ad7ff280f7/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/40f2683d7335e6188ba943ad7ff280f7/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/0a418c0c37f8be8d4a65ea8583feebb9/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/0a418c0c37f8be8d4a65ea8583feebb9/transformed/savedstate-ktx-1.3.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/d692ff2486afecd69ed3c0bdbd329afb/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] /var/home/minigunpunk/.gradle/caches/transforms-4/d692ff2486afecd69ed3c0bdbd329afb/transformed/savedstate-compose/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/3066f69e3c8eb5981b3520a5cd317050/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/3066f69e3c8eb5981b3520a5cd317050/transformed/runtime/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/64e13f9642a8a1f7540997a27ba7e901/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/64e13f9642a8a1f7540997a27ba7e901/transformed/runtime-saveable/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/23dda0d083ec050f401ba6dc677b8849/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/23dda0d083ec050f401ba6dc677b8849/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/8dbeb1c3598d214aabcc62b3ff2aee9e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/8dbeb1c3598d214aabcc62b3ff2aee9e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/03bc1e6792e117e4bccda77702e3dea4/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/03bc1e6792e117e4bccda77702e3dea4/transformed/ui/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c5e891331775519d0008299919b5d394/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c5e891331775519d0008299919b5d394/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/858c260c02cea367f16573901af50e90/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/858c260c02cea367f16573901af50e90/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/35141871475b721cd5327b73c96d2166/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /var/home/minigunpunk/.gradle/caches/transforms-4/35141871475b721cd5327b73c96d2166/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/70aec4975570fd1ec58dc8caae027ae5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/70aec4975570fd1ec58dc8caae027ae5/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/994e619b5f4dd4c5c8a0cab6a4d354b4/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/994e619b5f4dd4c5c8a0cab6a4d354b4/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/cb4e3177b0e53d0ce981d6fad90e9da4/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /var/home/minigunpunk/.gradle/caches/transforms-4/cb4e3177b0e53d0ce981d6fad90e9da4/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /var/home/minigunpunk/.gradle/caches/transforms-4/d71f1968ca0d76d2de3d3896481fdfb4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /var/home/minigunpunk/.gradle/caches/transforms-4/d71f1968ca0d76d2de3d3896481fdfb4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/b1ec73985a1d6c200353dce0af8ec2fe/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/b1ec73985a1d6c200353dce0af8ec2fe/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c0b9d8ae4f59b1f027ee638ed5fdaef1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/c0b9d8ae4f59b1f027ee638ed5fdaef1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/89bf0010004e78eeb192a11767ad2037/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/89bf0010004e78eeb192a11767ad2037/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ef871b021e6d852c2007d4e0878eb41c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/ef871b021e6d852c2007d4e0878eb41c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1ffa8b143b8cb172b0631e5809a8303e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1ffa8b143b8cb172b0631e5809a8303e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1dabf5640df23e7f2d26bda717d4ae22/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/1dabf5640df23e7f2d26bda717d4ae22/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/54f64dce2f4bc9bf35f88a2fe6982d5c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/54f64dce2f4bc9bf35f88a2fe6982d5c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a3ca27c366abcb24f09b7d5c42f72b89/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a3ca27c366abcb24f09b7d5c42f72b89/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a4e2c39ef4d519a9f1e29182bace0bb0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /var/home/minigunpunk/.gradle/caches/transforms-4/a4e2c39ef4d519a9f1e29182bace0bb0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/7040d9395aa282c5bb56a1ebe5bc0ea3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /var/home/minigunpunk/.gradle/caches/transforms-4/7040d9395aa282c5bb56a1ebe5bc0ea3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/1a965cc73a7238bbe50c1b028523651f/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /var/home/minigunpunk/.gradle/caches/transforms-4/2c80c0aeb2aca94173e8405c699f85ab/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/3631b6d9db683efbb4fca30dfbd6e725/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.5.0] /var/home/minigunpunk/.gradle/caches/transforms-4/49abe7fb769e4c30f763d557bebe33cf/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#com.example.calculatorcourse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.calculatorcourse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /var/home/minigunpunk/.gradle/caches/transforms-4/6a9d60c3ffc8581d235144b5c0d0c92d/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] /var/home/minigunpunk/.gradle/caches/transforms-4/1b69b5d3c76c3e0e96ebabefcac385d7/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.5] /var/home/minigunpunk/.gradle/caches/transforms-4/fddd7dab72f66277de41b163d28a5028/transformed/ui-test-manifest-1.10.5/AndroidManifest.xml:24:13-63
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /var/home/minigunpunk/.gradle/caches/transforms-4/76470350b73484e5cf869ddb44eb3fe0/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
