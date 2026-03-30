@@ -1,168 +1,103 @@
 package com.example.calculatorcourse.domain
 
-import java.math.BigDecimal
-import java.math.RoundingMode
-
 class CalculatorEngine {
-    private var currentInput = "0"
-    private var storedValue: BigDecimal? = null
-    private var pendingOperation: CalculatorOperation? = null
-    private var expressionText = ""
-    private var resetInputOnNextDigit = false
-    private var errorState = false
 
-    fun state(): CalculatorState = CalculatorState(
-        display = currentInput,
-        expression = expressionText,
-        hasError = errorState
-    )
+    fun evaluate(expression: String): String {
+        if (expression.isBlank()) return "0"
 
-    fun onAction(action: CalculatorAction): CalculatorState {
-        if (errorState && action !is CalculatorAction.Clear) {
-            clearAll()
-        }
-
-        when (action) {
-            is CalculatorAction.Number -> appendNumber(action.value)
-            CalculatorAction.Decimal -> appendDecimal()
-            CalculatorAction.Clear -> clearAll()
-            CalculatorAction.Delete -> deleteLast()
-            CalculatorAction.Calculate -> calculate()
-            CalculatorAction.ToggleSign -> toggleSign()
-            CalculatorAction.Percent -> percent()
-            is CalculatorAction.Operation -> chooseOperation(action.value)
-        }
-        return state()
-    }
-
-    private fun appendNumber(number: Int) {
-        if (resetInputOnNextDigit) {
-            currentInput = number.toString()
-            resetInputOnNextDigit = false
-            return
-        }
-
-        currentInput = if (currentInput == "0") number.toString() else currentInput + number
-    }
-
-    private fun appendDecimal() {
-        if (resetInputOnNextDigit) {
-            currentInput = "0."
-            resetInputOnNextDigit = false
-            return
-        }
-        if (!currentInput.contains('.')) {
-            currentInput += "."
+        return try {
+            val normalized = expression.replace(",", ".")
+            val result = evaluateSimpleExpression(normalized)
+            formatResult(result)
+        } catch (e: Exception) {
+            "Error"
         }
     }
 
-    private fun clearAll() {
-        currentInput = "0"
-        storedValue = null
-        pendingOperation = null
-        expressionText = ""
-        resetInputOnNextDigit = false
-        errorState = false
-    }
+    private fun evaluateSimpleExpression(expression: String): Double {
+        val tokens = tokenize(expression)
+        if (tokens.isEmpty()) return 0.0
 
-    private fun deleteLast() {
-        if (resetInputOnNextDigit) return
+        val values = mutableListOf<Double>()
+        val ops = mutableListOf<Char>()
 
-        currentInput = when {
-            currentInput.length <= 1 -> "0"
-            currentInput.startsWith("-") && currentInput.length == 2 -> "0"
-            else -> currentInput.dropLast(1)
-        }
-    }
+        fun applyTopOperator() {
+            if (values.size < 2 || ops.isEmpty()) return
 
-    private fun toggleSign() {
-        if (currentInput == "0") return
-        currentInput = if (currentInput.startsWith("-")) {
-            currentInput.removePrefix("-")
-        } else {
-            "-$currentInput"
-        }
-    }
+            val b = values.removeAt(values.lastIndex)
+            val a = values.removeAt(values.lastIndex)
+            val op = ops.removeAt(ops.lastIndex)
 
-    private fun percent() {
-        val value = currentInput.toBigDecimalOrNull() ?: run {
-            setError()
-            return
-        }
-        currentInput = format(value.divide(BigDecimal(100), 12, RoundingMode.HALF_UP))
-    }
-
-    private fun chooseOperation(operation: CalculatorOperation) {
-        val currentValue = currentInput.toBigDecimalOrNull() ?: run {
-            setError()
-            return
-        }
-
-        if (pendingOperation != null && !resetInputOnNextDigit) {
-            val result = performOperation(storedValue, currentValue, pendingOperation)
-            if (result == null) {
-                setError()
-                return
+            val result = when (op) {
+                '+' -> a + b
+                '-' -> a - b
+                '*' -> a * b
+                '/' -> {
+                    if (b == 0.0) throw IllegalArgumentException("Division by zero")
+                    a / b
+                }
+                else -> throw IllegalArgumentException("Unknown operator")
             }
-            storedValue = result
-            currentInput = format(result)
-        } else {
-            storedValue = currentValue
+
+            values.add(result)
         }
 
-        pendingOperation = operation
-        expressionText = "${format(storedValue)} ${operation.symbol}"
-        resetInputOnNextDigit = true
-    }
-
-    private fun calculate() {
-        val left = storedValue ?: return
-        val operation = pendingOperation ?: return
-        val right = currentInput.toBigDecimalOrNull() ?: run {
-            setError()
-            return
-        }
-
-        val result = performOperation(left, right, operation) ?: run {
-            setError()
-            return
-        }
-
-        expressionText = "${format(left)} ${operation.symbol} ${format(right)} ="
-        currentInput = format(result)
-        storedValue = null
-        pendingOperation = null
-        resetInputOnNextDigit = true
-    }
-
-    private fun performOperation(
-        left: BigDecimal?,
-        right: BigDecimal,
-        operation: CalculatorOperation?
-    ): BigDecimal? {
-        if (left == null || operation == null) return null
-        return when (operation) {
-            CalculatorOperation.Add -> left + right
-            CalculatorOperation.Subtract -> left - right
-            CalculatorOperation.Multiply -> left.multiply(right)
-            CalculatorOperation.Divide -> {
-                if (right.compareTo(BigDecimal.ZERO) == 0) null
-                else left.divide(right, 12, RoundingMode.HALF_UP)
+        fun precedence(op: Char): Int {
+            return when (op) {
+                '+', '-' -> 1
+                '*', '/' -> 2
+                else -> 0
             }
         }
+
+        for (token in tokens) {
+            if (token.toDoubleOrNull() != null) {
+                values.add(token.toDouble())
+            } else {
+                val op = token.first()
+                while (ops.isNotEmpty() && precedence(ops.last()) >= precedence(op)) {
+                    applyTopOperator()
+                }
+                ops.add(op)
+            }
+        }
+
+        while (ops.isNotEmpty()) {
+            applyTopOperator()
+        }
+
+        return values.firstOrNull() ?: 0.0
     }
 
-    private fun format(value: BigDecimal?): String {
-        if (value == null) return "0"
-        return value.stripTrailingZeros().toPlainString()
+    private fun tokenize(expression: String): List<String> {
+        val result = mutableListOf<String>()
+        val current = StringBuilder()
+
+        expression.forEachIndexed { index, c ->
+            when {
+                c.isDigit() || c == '.' -> current.append(c)
+                c in listOf('+', '-', '*', '/') -> {
+                    if (c == '-' && (index == 0 || expression[index - 1] in listOf('+', '-', '*', '/'))) {
+                        current.append(c)
+                    } else {
+                        if (current.isNotEmpty()) {
+                            result.add(current.toString())
+                            current.clear()
+                        }
+                        result.add(c.toString())
+                    }
+                }
+            }
+        }
+
+        if (current.isNotEmpty()) {
+            result.add(current.toString())
+        }
+
+        return result
     }
 
-    private fun setError() {
-        currentInput = "Error"
-        expressionText = "Invalid operation"
-        storedValue = null
-        pendingOperation = null
-        resetInputOnNextDigit = true
-        errorState = true
+    private fun formatResult(value: Double): String {
+        return if (value % 1.0 == 0.0) value.toLong().toString() else value.toString()
     }
 }

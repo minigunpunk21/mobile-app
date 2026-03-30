@@ -9472,12 +9472,12 @@
                 {
                     "source": "/var/home/minigunpunk/Загрузки/part1_calculator/app/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "3,5",
+                        "startLines": "2,3",
                         "startColumns": "4,4",
-                        "startOffsets": "56,144",
-                        "endLines": "3,8",
+                        "startOffsets": "55,142",
+                        "endLines": "2,6",
                         "endColumns": "86,12",
-                        "endOffsets": "138,389"
+                        "endOffsets": "137,387"
                     },
                     "to": {
                         "startLines": "6510,6511",

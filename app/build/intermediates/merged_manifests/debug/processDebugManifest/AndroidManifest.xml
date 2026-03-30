@@ -20,15 +20,13 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:label="CalculatorCourse"
         android:testOnly="true"
-        android:theme="@style/Theme.CalculatorCourse" >
+        android:theme="@style/Theme.CalculatorCourse.Starting" >
         <activity
-            android:name="com.example.calculatorcourse.app.MainActivity"
+            android:name="com.example.calculatorcourse.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.CalculatorCourse" >
+            android:theme="@style/Theme.CalculatorCourse.Starting" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
